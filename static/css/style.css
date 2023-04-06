@@ -1,0 +1,34 @@
+:root {
+    --main-color: #0D0D0D;
+    --text-color: #0A732F;
+    --border-light-color: #30F284;
+    --border-color: #34BF7E;
+    --light-hight-color: #05F2DB;
+    --main-font: 'Courier New', Courier, monospace;
+}
+
+
+body, html {
+    margin: 0;
+    background: white;
+    color: var(--text-color);
+    font-family: var(--main-font);
+}
+
+
+/* ___HEADER___ */
+
+header {
+    width: 100vw;
+}
+
+#logoheader {
+    height: 100px;
+    width: 100px;
+    background-image: url(../img/logo.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+/* ____________ */
